@@ -151,3 +151,19 @@ Para mitigar esse tipo de ataque, é crucial implementar as seguintes medidas:
 * **Controles Web Adicionais:** Adicionar CAPTCHA, Limitação de Taxa de Requisições (Rate Limiting) ou Autenticação de Dois Fatores (2FA) em portais web.
 
 Este projeto demonstra, em ambiente controlado e educacional, como ataques relativamente simples podem comprometer sistemas mal configurados.
+
+## 8. Como executar o script de simulação
+O script `run_bruteforce_simulation.sh` automatiza as etapas de 1 a 6 desta simulação (excluindo os testes de validação manual).
+
+**Pré-requisitos**
+
+Certifique-se de que o Kali Linux e a máquina Metasploitable 2 estejam ativos na rede 192.168.56.0/24 e que o Medusa e o Nmap estejam instalados.
+
+**Execução:** Conceda permissão de execução ao script:
+
+`chmod +x run_bruteforce_simulation.sh`
+
+**Execute o script:**
+`./run_bruteforce_simulation.sh`
+
+O script limpará as listas de palavras (`users.txt` e `pass.txt`) após a conclusão.
