@@ -164,6 +164,7 @@ Certifique-se de que o Kali Linux e a máquina Metasploitable 2 estejam ativos n
 `chmod +x run_bruteforce_simulation.sh`
 
 **Execute o script:**
+
 `./run_bruteforce_simulation.sh`
 
 O script limpará as listas de palavras (`users.txt` e `pass.txt`) após a conclusão.
